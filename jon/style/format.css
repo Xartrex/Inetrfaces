@@ -1,0 +1,10 @@
+#header{
+    position: fixed;
+    background-color: red;
+    border: 1px solid;
+    padding: 50px;
+    height: 100px;
+    width: 100px;
+    float:left;
+   
+}
