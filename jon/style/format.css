@@ -1,10 +1,31 @@
 #header{
-    position: fixed;
-    background-color: red;
-    border: 1px solid;
-    padding: 50px;
-    height: 100px;
-    width: 100px;
-    float:left;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: lightblue;
+    padding: 0px; /*los botones pegaos a los extremos, sin padding*/
+    height: 75px;
+    width: 100%;
+}
+
+
+nav li a {
+
+    float: right;
+    background-color: #000;
+    color: #fff; /*text color*/
+    text-decoration: none;
+    padding: 10px 75px;
+    /*tamaño bloque de botones*/
+}
+
+nav li {
+    display: inline;/*mostrar botones en horizontal*/
    
 }
+  
+  li a:hover:not(.active) { /*pasar raton por encima de boton*/
+    background-color: red;
+    color: white; /*text color*/
+  }
+
