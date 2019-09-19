@@ -42,10 +42,10 @@ nav li {
     
   }
 
-  #titulo1{ /*Hace referencia al titulo de Iphone 11*/
-    height:100px;
-    width:250px;
-    font-size: 50%;
+  h1{ /*Hace referencia al titulo de Iphone 11*/
+    height:70%;
+    width:70%;
+    font-size: 120%;
     margin-left: 10%;
     margin-top: 10%;
   }
@@ -84,6 +84,7 @@ nav li {
     width: 380px;
     margin-top:180px; 
     float: left;
+    border: 3px solid black;
   }
   
   #like{
@@ -164,7 +165,6 @@ nav li {
     margin-top: 70px;
   }
   #columnaMedio{
-    font-size:30px;
     font-style: oblique;
     position: relative;
     height:800px; 
