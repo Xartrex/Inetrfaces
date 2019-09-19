@@ -27,5 +27,45 @@ nav li {
   li a:hover:not(.active) { /*pasar raton por encima de boton*/
     background-color: red;
     color: white; /*text color*/
+
   }
 
+ /* nav ul ul { 
+    display: none; /*No mostrar lista desplegable*/
+    position: absolute; 
+  /*  top: 60px; 
+  }	
+  nav ul li:hover > ul {/*Mouse encima de boton de desplegable*/
+  /*  display: block;
+    text-decoration: none;
+    list-style: none;
+    
+  }	
+  nav ul ul li {
+    width:230px;
+    float: right;
+    display:list-item;
+    position: relative;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    position: relative;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    text-decoration: none;
+    background-color: green}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }*/
+  
+  
+  
