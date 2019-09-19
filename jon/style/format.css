@@ -51,11 +51,6 @@ nav li {
 
   }
 
-/* div h1{
-    height:30px;
-    margin-left:20px;
-  }*/
-
   #columnaIzq{
     font-size: 50px;
     font-style: oblique;
@@ -78,8 +73,7 @@ nav li {
   }
   #emoticonos{
     height: 50px;
-    width: 200px;
-    border: 3px solid black;
+    width: 380px;
     margin-top:180px; 
     float: left;
   }
@@ -95,15 +89,31 @@ nav li {
     float: left;
     height:30px;
     width:30px;
-    margin-left:15%; 
+    margin-left:10%; 
     margin-top:1%;
   }
   #compartir{
     float: left;
     height:30px;
     width:30px;
-    margin-left:20%; 
+    margin-left:10%; 
     margin-top:1%;
+  }
+  #fecha{
+    float:left;
+    font-size: 40%;
+    height: 5%;
+    width: 5%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  #hora{
+    float:left;
+    font-size: 40%;
+    height:5%;
+    width:5%;
+    margin-left: 25%;
+    margin-top:5%;
   }
 
   #hijo1{
