@@ -39,6 +39,15 @@ nav li {
     margin-top: 10%;
   }
 
+  h2{
+    height:120%;
+    width:120%;
+    font-size:130%;
+    margin-left: 50%;
+    margin-top:10%;
+    text-align: center;
+  }
+
   #titulo{ /*Hace referencia a los otros dos titulos*/
     height:30px;
     width:250px;
@@ -67,6 +76,14 @@ nav li {
     float: left;
     margin-left:85%;
     margin-top: 3%;
+  }
+
+  #imagen{
+    height: 50%;
+    width: 50%;
+    float: left;
+    margin-top: 10%;
+    margin-left: 1%;
   }
   #emoticonos{
     height: 90%;
