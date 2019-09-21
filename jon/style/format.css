@@ -131,11 +131,11 @@ nav li {
   background-image: url("../images/Mr_Robot.png");
   background-attachment: fixed; /*Al hacer scroll la img no se mueve*/
  /* background-size: 100%;
-  
+
 }*/
 
   section{
-  
+
     margin-bottom: 10%;
     margin-left: 3%;
     margin-right: 3%;
@@ -152,7 +152,7 @@ nav li {
 
   .tooltip .tooltiptext {
     visibility: hidden;
-    width: 30%;
+    width: 300%;
     background-color: #555;
     color: #fff;
     text-align: center;
@@ -172,7 +172,7 @@ nav li {
     position: absolute;
     top: 100%;
     left: 50%;
-  
+
     border-style: solid;
     border-color: #555 transparent transparent transparent;
   }
