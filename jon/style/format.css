@@ -41,9 +41,9 @@ nav li {
 
   h2{
     height:120%;
-    width:120%;
+    width:100%;
     font-size:130%;
-    margin-left: 50%;
+    margin-left: 70%;
     margin-top:10%;
     text-align: center;
   }
@@ -88,7 +88,7 @@ nav li {
   #emoticonos{
     height: 90%;
     width: 90%;
-    margin-top:50%;
+    margin-top:10%;
     float: left;
     padding-bottom: 4%;
 
