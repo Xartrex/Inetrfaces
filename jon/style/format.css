@@ -71,6 +71,8 @@ nav li {
     color: black;
     margin-left:1%;
     margin-top:8%;
+    background-color: #fff;
+    
   }
 
   #menu{
@@ -151,15 +153,16 @@ nav li {
     float: left;
     color: black;
     margin: 4%;
+    background-color: white;
   }
 
 
-/*body{
+body{
   background-image: url("../images/Mr_Robot.png");
   background-attachment: fixed; /*Al hacer scroll la img no se mueve*/
- /* background-size: 100%;
+  background-size: 100%;
 
-}*/
+}
 
   section{
 
@@ -227,7 +230,7 @@ footer a{
 }
 
 .modal-contenido{
-  background-color:aqua;
+  background-color:white;
   width:80%;
   height:70%;
   padding: 10px 20px;
@@ -235,7 +238,7 @@ footer a{
   margin-top:10%;
   margin-bottom: 15%;
   z-index: 99; /*prioridad, se coloca encima del resto, se supone*/
-  overflow: hidden;/*without scroll bar*/
+  overflow: auto;/*without scroll bar*/
 }
 .modal{
 
@@ -253,6 +256,22 @@ footer a{
 #miModal:target{
   opacity:100;
   pointer-events:auto;
+}
+
+#miModal2:target{
+  opacity:100;
+  pointer-events:auto;
+}
+
+#miModal3:target{
+  opacity:100;
+  pointer-events:auto;
+}
+
+.modal-contenido img{
+  float:left;
+  margin-left:0;
+ 
 }
 
 
