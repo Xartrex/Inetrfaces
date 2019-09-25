@@ -13,7 +13,7 @@ nav li a {
 
     
     float: right;
-    background-color: #000;
+    background-color: transparent;
     color: #fff; /*text color*/
     text-decoration: none;
     padding: 1%;
@@ -240,6 +240,7 @@ footer a{
   z-index: 99; /*prioridad, se coloca encima del resto, se supone*/
   overflow: auto;/*without scroll bar*/
 }
+
 .modal{
 
   background-color: rgba(0,0,0,.8);/*color fuera del pop up*/
@@ -274,4 +275,130 @@ footer a{
  
 }
 
+.image_pop{
+    float: left;
+    height:90%;
+    width: 30%;
+    margin: 2%;
+}
 
+.text_pop{
+  float:right;
+  height:100%;
+  width: 60%;
+  margin: 2%;
+}
+
+.emoticonos_pop{
+  float:left;
+  width: 28%;
+  height: 15%;
+  margin: 2%;
+
+}
+
+.comentar_pop{
+
+  margin-left:45%;
+  height:10%;
+  width:10%;
+}
+
+.like_pop{
+  float:left;
+  height:10%;
+  width:10%;
+}
+
+.compartir_pop{
+  float:right;
+  height: 10%;
+  width: 10%;
+}
+
+.time_pop{
+  
+  float:right;
+  width: 28%;
+  height: 10%;
+  right:0;
+}
+
+.fecha_pop{
+  float:left;
+  width: 30%;
+  height: 10%;
+}
+.hora_pop{
+  float:right;
+  width: 30%;
+  height: 10%;
+}
+
+.share{
+  width:100%;
+  height: 60%;
+  margin-top: 55%;
+  border:3px solid black;
+}
+
+.users{
+  height: 80%;
+  width: 100%;
+  border:3px solid black;
+ 
+}
+
+.users1{
+  float:left;
+  height: 30%;
+  width: 25%;
+  border:3px solid black;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.users3{
+  margin-left: 27%;
+  height: 30%;
+  width: 25%;
+  border:3px solid blue;
+  margin-bottom: 2%;
+}
+
+.users2{
+  float:left;
+  height: 30%;
+  width: 25%;
+  border:3px solid red;
+}
+
+.users4{
+  margin-left: 27%;
+  height: 30%;
+  width: 25%;
+  border:3px solid yellow;
+}
+
+.usimg{
+  float:left;
+  height:90%;
+  width:20%;
+  border:3px solid black;
+}
+
+.us_text{
+  margin: 7%;
+  text-align: center;
+  border:3px solid black;
+  width: 50%;
+  float:right;
+}
+
+.add_user{
+  margin-left: 70%;
+  height: 30%;
+  width: 7%;
+  border:3px solid yellow;
+
+}
