@@ -11,7 +11,7 @@
 
 nav li a {
 
-    
+
     float: right;
     background-color: transparent;
     color: #fff; /*text color*/
@@ -40,6 +40,7 @@ nav li {
     font-size: 200%;
     margin-left: 10%;
     margin-top: 10%;
+    color: white;
   }
 
   h2{
@@ -66,12 +67,14 @@ nav li {
     padding-bottom: 1%;
     height:100%;
     width:30%;
-    border:3px solid black;
+    /*border:3px solid black;*/
     float: left;
     color: black;
     margin-left:1%;
     margin-top:8%;
     background-color: #fff;
+    background-image: url("../images/fondo.jpg");
+
   }
 
   #menu{
@@ -82,10 +85,10 @@ nav li {
     margin-top: 3%;
   }
   #cruz{
-    height: 10%;
-    width: 10%;
+    height: 5%;
+    width: 5%;
     float:left;
-    margin-left:92%;
+    margin-left:90%;
 
   }
 
@@ -243,7 +246,7 @@ footer a{
 .modal{
 
   background-color: rgba(0,0,0,.8);/*color fuera del pop up*/
-  position:fixed; /*con respecto al navegador*/ 
+  position:fixed; /*con respecto al navegador*/
   top:0;
   right:0;
   bottom:0;
@@ -271,7 +274,7 @@ footer a{
 .modal-contenido img{
   float:left;
   margin-left:0;
- 
+
 }
 
 .image_pop{
@@ -335,7 +338,7 @@ footer a{
 }
 
 .time_pop{
-  
+
   float:right;
   width: 28%;
   height: 10%;
@@ -362,7 +365,7 @@ footer a{
 .users{
   height: 80%;
   width: 100%;
- 
+
 }
 
 .users1{
@@ -440,7 +443,6 @@ footer a{
 }
 
 .send{
-   border:3px solid black;
   text-align: center;
   float:right;
   margin-right: 3%;
@@ -449,4 +451,18 @@ footer a{
   border:3px solid black;
 
 
+}
+@media only screen and (max-width: 768px) {/*700 x 480*/
+  #columna{
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 600px) {/*600 x 480*/
+  #columna{
+
+    width:95%;
+    /*border:3px solid black;*/
+
+
+  }
 }
