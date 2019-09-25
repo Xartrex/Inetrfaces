@@ -72,7 +72,6 @@ nav li {
     margin-left:1%;
     margin-top:8%;
     background-color: #fff;
-    
   }
 
   #menu{
@@ -289,6 +288,25 @@ footer a{
   margin: 2%;
 }
 
+#pop_sam{
+  float:right;
+  height:100%;
+  width: 60%;
+  margin: 2%;
+  overflow: auto;
+
+}
+
+#huawei_pop{
+  float:right;
+  height:100%;
+  width: 60%;
+  margin: 2%;
+  overflow: auto;
+
+
+}
+
 .emoticonos_pop{
   float:left;
   width: 28%;
@@ -339,66 +357,96 @@ footer a{
   width:100%;
   height: 60%;
   margin-top: 55%;
-  border:3px solid black;
 }
 
 .users{
   height: 80%;
   width: 100%;
-  border:3px solid black;
  
 }
 
 .users1{
   float:left;
   height: 30%;
-  width: 25%;
-  border:3px solid black;
+  width: 17%;
   margin-bottom: 2%;
   text-align: center;
 }
 
 .users3{
-  margin-left: 27%;
+  margin-left: 17%;
   height: 30%;
-  width: 25%;
-  border:3px solid blue;
+  width: 17%;
   margin-bottom: 2%;
 }
 
 .users2{
   float:left;
   height: 30%;
-  width: 25%;
-  border:3px solid red;
+  width: 17%;
 }
 
 .users4{
-  margin-left: 27%;
+  margin-left: 17%;
   height: 30%;
-  width: 25%;
-  border:3px solid yellow;
+  width: 17%;
 }
 
 .usimg{
+  margin-top: 5%;
+  margin-left:5%;
   float:left;
-  height:90%;
-  width:20%;
-  border:3px solid black;
+  height:70%;
+  width:25%;
 }
 
 .us_text{
-  margin: 7%;
-  text-align: center;
-  border:3px solid black;
+  margin-top: 12%;
+  margin-right: 10%;
+  text-align: left;
   width: 50%;
   float:right;
 }
 
 .add_user{
-  margin-left: 70%;
+  position:relative;
+  margin-left: 55%;
+  margin-top: -15%;
   height: 30%;
   width: 7%;
-  border:3px solid yellow;
+}
+
+.user_comments{
+  width: 100%;
+  height: 100%;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  border:3px solid black;
+}
+
+.comment_text{
+  margin-left: 1%;
+  height: 70%;
+  width: 100%;
+ 
+}
+
+.write_comment{
+  float:left;
+  height: 10%;
+  width: 87%;
+  border:3px solid black;
+  margin-left: 1%;
+}
+
+.send{
+   border:3px solid black;
+  text-align: center;
+  float:right;
+  margin-right: 3%;
+  width: 7%;
+  height: 10%;
+  border:3px solid black;
+
 
 }
